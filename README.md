@@ -1,6 +1,7 @@
 # mysqlpp
 Small C++ wrapper for the mysql C Linux library.
 			
+## Use
 
 ```c++
 std::string query = "SELECT name, lastname FROM employees;";
@@ -21,3 +22,8 @@ for (; it != result.end(); ++it)
 };
 ```
 
+## Compilation
+
+Include the "mysql.hpp" file and link with:
+
+-lmysqlclient
